@@ -1,0 +1,31 @@
+{
+    "logo": "assets/logo.png",
+    "font": "assets/fonts/nasalization/nasalization-rg.otf",
+    "theme": "dark",
+    "icon": {
+        "option": "assets/textures/option.png",
+        "dark": "assets/textures/sun.png",
+        "light": "assets/textures/moon.png",
+        "exit": "assets/textures/exit.png"
+    },
+    "colors": {
+        "dark": {
+            "background": "24273a",
+            "text": "cad3f5",
+            "title": "b7bdf8",
+            "button": "494d64",
+            "option": "6e738d",
+            "focus": "c6a0f6",
+            "disable": "1e2030"
+        },
+        "light": {
+            "background": "eff1f5",
+            "text": "4c4f69",
+            "title": "7287fd",
+            "button": "bcc0cc",
+            "option": "9ca0b0",
+            "focus": "8839ef",
+            "disable": "e6e9ef"
+        }
+    }
+}

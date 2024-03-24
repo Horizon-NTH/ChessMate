@@ -274,9 +274,9 @@ class Pawn(PieceGene):
             TableauDeRetour.append([ligneP + sens, coloneP])
         # Mouvement initial de deux cases
         if (self.couleur == "White" and ((ligneP == 6 and PlaceDesBlanc == 0) or (ligneP == 1 and PlaceDesBlanc == 1))) or \
-            (self.couleur == "Black" and ((ligneP == 1 and PlaceDesBlanc == 0) or (ligneP == 6 and PlaceDesBlanc == 1))):
-                if Echequier[ligneP + 2 * sens][coloneP] is None:
-                    TableauDeRetour.append([ligneP + 2 * sens, coloneP])
+           (self.couleur == "Black" and ((ligneP == 1 and PlaceDesBlanc == 0) or (ligneP == 6 and PlaceDesBlanc == 1))):
+            if Echequier[ligneP + 2 * sens][coloneP] is None:
+                TableauDeRetour.append([ligneP + 2 * sens, coloneP])
 
         # Prises diagonales
         for delta_colone in [-1, 1]:
@@ -289,3 +289,4 @@ class Pawn(PieceGene):
                     TableauDeRetour.append([ligneP + sens, nouvelle_colone])
 
         return TableauDeRetour
+    
